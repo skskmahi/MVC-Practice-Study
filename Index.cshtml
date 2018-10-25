@@ -1,0 +1,74 @@
+﻿@model IEnumerable<StudentRegistration.Models.Student>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Welcome to Student Registration System</h2>
+
+<p>
+    Please find below the list of already registered students. Click on  @Html.ActionLink("Register here", "Create") if your name is not available in the below list.
+</p>
+<table>
+    <tr>
+        <th>
+            User Name
+        </th>       
+        <th>
+            Email Id
+        </th>
+        <th>
+            First Name
+        </th>
+        <th>
+            Last Name
+        </th>
+        <th>
+            Date Of Birth
+        </th>
+        <th>
+            Gender
+        </th>
+        <th>
+            Address
+        </th>
+        <th>
+            Areas Of Interest
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserName)
+        </td>        
+        <td>
+            @Html.DisplayFor(modelItem => item.EmailId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateOfBirth)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AreasOfInterest)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.StudentId }) |           
+            @Html.ActionLink("Delete", "Delete", new { id=item.StudentId })            
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,136 @@
+Orient proctors about "Do not modify" in the template
+-----------------------------
+Delete the employee case study for time being--Done
+---------------
+Check whether engine is working fine for case study without databases
+----------------
+------------------------------------------------
+check AddNewStock and AddNewAccount sample input of PriceUpdation case study
+------------------------------
+Change the Trade_ID to Trade_Id in SDClass in SDProcessing and deliver to asset team (Check VB or C#)
+-----------------------------------------------------------
+
+Case Study Checklists:
+Mention in the BRD that return only the required fields
+
+Nov 13--- MVC Content Delivery to Asset Team
+
+Extract the zip files (New case studies -alpha testing)
+-------------------------------------
+Ask the associates to create custom binding
+partial views
+-------------------------------------------
+MVC Infra changes
+
+Install AspNetMVC3Setup.exe
+Install MVC3 Tools Update
+Install EntityFramework.4.1.10331.0 (Need EntityFramework.dll)
+Check ASP.NET Configuration is opening to change Security options
+
+Download and install NuGet package manager 
+-----------------------------------------------
+
+Example for NAV Calculation (give in case study)
+----------------------------------------
+--------------------------------
+Bloomberg details
+###############################################################
+•	Visual Basic 2008 For Dummies by  Bill Sempf
+
+•	Professional Visual Basic 2010 and .NET 4 by Bill Sheldon and et al.
+
+•	Pro VB 2010 and the .NET 4.0 Platform by  Andrew Troelsen and Vidya Vrat Agarwal
+---------------------------------------------
+
+UID - mylabs\myadmin	
+PWD - myADM!N
+VM Admin credentials
+--------------------------------
+
+tn03 k 7877
+
+
+Scope finalized by Architect???
+----------------------
+Date issue: 03/23/2013 and 3/23/2013 give the month as 10 or 11 
+-----------------------------------------------
+Check whether the input files exist before each run - SBA
+
+----------------------------------------------
+Evaluation link access to all 3 of us
+
+MVC Certification
+70-486
+SQL SERVER error - Check with Prashanth
+############################
+__________________________________________
+Books 24X7
+C# Collections: A Detailed Presentation 
+by  Rick Miller
+
+ 
+Professional C# 2008 by  Christian Nagel et al.
+ 
+_______________________________________________
+2.Logging and System Management
+4.Application Security
+5.User and Data Security
+###################Add in MCQ with code snippets##############
+Globalization
+####################
+Nithya kalyani - 158718
+
+
+
+
+
+
+-----------------------------
+9159291592 - to know how my data used
+9176353239 - tab number
+12th bill date
+30th due date
+1200 
+12.35% service tax
+
+act 111
+NITH3239
+------------------------------
+Currency Converter
+Find the day of the entered date and the day of after 30 days of the entered date
+-------------------------
+Add SBA. to script files and in use case document
+Attach test project
+/*
+         * Do not modify the return types of the below properties
+         */
+//Do not modify this class
+        //Just throw the class if any exception occurs
+
+ProcessData
+ /*
+        * Pass the file path, file names and connection string if any in this method alone. 
+        * Do not hardcode in any other methods
+        */ 
+
+
+//Do not hardcode the filename and the file path here
+//Do not hardcode the connection string here
+
+//Do not return the date with time appended to it.
+
+/*
+        * Do not remove the attached ClaimProcessingTestProject. It is meant for auto evaluation of your source code.
+        * Do not attach any test classess to the attached test project.
+        * Do not attach any new test projects.
+        * You are supposed to write only the code. You are not required to write any automated test cases.
+        */
+-----------------------------
+
+09620068383 - Pinal Dave
+
+ Microsoft account
+sec question: Nithin
+aaron_12
+
+
